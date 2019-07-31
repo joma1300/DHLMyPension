@@ -1,0 +1,53 @@
+
+/* for web */
+
+@font-face {
+    font-family: "Delivery Regular";
+    src: url("fonts/Regular/DeliveryArabic_W_Rg.eot");
+    src: url("fonts/Regular/DeliveryArabic_W_Rg.woff") format("woff"),
+    url("fonts/Regular/DeliveryArabic_W_Rg.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "Delivery Bold";
+    src: url("fonts/Bold/DeliveryArabic_W_Bd.eot");
+    src: url("fonts/Bold/DeliveryArabic_W_Bd.woff") format("woff"),
+    url("fonts/Bold/DeliveryArabic_W_Bd.svg#filename") format("svg");
+}
+
+@font-face {
+font-family: "Delivery Black Condensed";
+    src: url("fonts/Black_Condensed/DeliveryArabic_W_CdBlk.eot");
+    src: url("fonts/Black_Condensed/DeliveryArabic_W_CdBlk.woff") format("woff"),
+    url("fonts/Black_Condensed/DeliveryArabic_W_CdBlk.svg#filename") format("svg");
+}
+  
+@font-face {
+    font-family: "Delivery Light Condensed";
+    src: url("fonts/Light_Condensed/DeliveryArabic_W_CdLt.eot");
+    src: url("fonts/Light_Condensed/DeliveryArabic_W_CdLt.woff") format("woff"),
+    url("fonts/Light_Condensed/DeliveryArabic_W_CdLt.svg#filename") format("svg");
+}
+  
+@font-face {
+    font-family: "Delivery Light";
+    src: url("fonts/Light/DeliveryArabic_W_Lt.eot");
+    src: url("fonts/Light/DeliveryArabic_W_Lt.woff") format("woff"),
+    url("fonts/Light/DeliveryArabic_W_Lt.svg#filename") format("svg");
+}
+
+/*end for web */
+
+.main_headline{ font-family: "Delivery Black Condensed"; text-transform: uppercase; color:#D2002E; font-size: 35.2px;}
+.topline{ font-family: "Delivery Light Condensed"; text-transform: uppercase; }
+.secondary_headline{ font-family: "Delivery Black Condensed"; }
+.paragraph_header{ font-family: "Delivery Bold"; font-size: 30px; color:#D2002E; }
+/* .intro-large{ font-family: "Delivery Light Condensed";  } */
+.intro-large{ font-family: "Delivery Bold";  }
+.intro-small{ font-family: "Delivery Light"; }
+.headline_sub{ font-family: "Delivery Regular";  color:#D2002E; font-size: 28px;}
+.emphasis{ font-family: "Delivery Bold"; color:black; font-size: 25px;}
+.captions{ font-family: "Delivery Regular"; }
+.quotation{ font-family: "Delivery Light"; font-style: italic; }
+.marginalia{ font-family: "Delivery Regular"; }
+.card-headers{ font-family: "Delivery Bold"; color:black; font-size: 20px; padding-top:20px;}
