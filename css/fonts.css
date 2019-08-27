@@ -50,5 +50,6 @@ font-family: "Delivery Black Condensed";
 .emphasis{ font-family: "Delivery Bold"; color:black; font-size: 25px;}
 .captions{ font-family: "Delivery Regular"; }
 .quotation{ font-family: "Delivery Light"; font-style: italic; }
-.marginalia{ font-family: "Delivery Regular"; }
+.marginalia{ font-family: "Delivery Bold";  color:#D2002E; font-size: 20px; text-align: center; }
+.marginalia-2{ font-family: "Delivery Bold";  color:#D2002E; font-size: 16px; text-align: center; }
 .card-headers{ font-family: "Delivery Bold"; color:black; font-size: 20px; padding-top:20px;}

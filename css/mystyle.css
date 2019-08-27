@@ -19,6 +19,10 @@ li{
 	background:#e5e5e5;
 }
 
+.bg-red{
+  background: #D2002E;
+}
+
 .bg-pink{
 	background: #c72f8d;
 }
@@ -83,6 +87,23 @@ li{
   font-size: 18px;
   float: right;
   margin-left: 5px;
+}
+
+.accordions2 .card .card-header:hover{
+  color:black;
+}
+.accordions2 .card{
+  border: none;
+}
+.accordions2 .card .card-header{
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom:none;
+  border-radius: 0;
+}
+.accordions2 .card .card-body{ padding-bottom: 3rem;}
+.accordions2 .card:last-child .card-header{
+  border-bottom: 1px solid black;
 }
 
 .pinktab.accordion:after{
@@ -157,8 +178,10 @@ li{
 .breadcrumb a{
   color: gray;
 }
+
+
 .breadcrumb li.active{
-  color: black;
+  /* color: black; */
 }
 /* button designs */
 .btn1{
@@ -172,6 +195,19 @@ li{
     border: 2px solid #D2002E;
     font-family: "Delivery Bold";
     padding: .375rem 1.5rem;
+}
+
+.btn-center{
+  display: block;
+  margin:auto;
+}
+.charge-btn{
+  top:30px;
+}
+.content-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-3:hover{
@@ -324,9 +360,9 @@ li{
 }
 
 #banner{
-  padding: 58px 30px 8px 30px;
+  padding: 50px 30px 8px 30px;
   background-image: url("../images/website.png");
-  height: 346px;
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left bottom;
@@ -454,6 +490,10 @@ li{
   padding:70px 0 40px 0;
   width:100%;
 }
+.gray-div-10-2{
+  background-color: #e5e5e5;
+  width:100%;
+}
 
 .yellow-div-10{
 	background: rgb(255,204,0);
@@ -524,6 +564,16 @@ li{
   border-top-right-radius: 5px;
 }
 
+.card2 .card-header-color{
+  height: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.savings_for_retirement .card{ min-height: 300px !important; }
+.savings_for_retirement .card .btn{ position: absolute; bottom: 20px; left: 50%; transform: translate(-50%, 0); }
+.taking_action .card-col .card{ background-color: transparent; border:none; }
+
 /* end cards */
 
 #savings-line-1, #savings-line-2, #home-line, #contribution-line{
@@ -559,7 +609,7 @@ li{
 }
 
 .center-desc .center-desc-text{
-  width: 40%;
+  width: 60%;
   margin: auto;
 }
 
@@ -624,6 +674,25 @@ li{
 	text-align:center;
 }
 
+.pull-rights{
+  float: right;
+}
+
+.myTable1{
+  border-collapse: separate;
+  -webkit-border-vertical-spacing: 5px;
+}
+.myTable1 th{ padding: 0; }
+.myTable1 td{
+  padding-left: 0;
+}
+.myTable1 tr, .myTable1 td, .myTable1 th{
+  border-bottom:1px solid black;
+}
+.myTable1 tr:nth-last-child(3) td, .myTable1 tr:last-child td{
+  border-bottom:none !important;
+}
+
 @media (max-width: 575px) {
 	.tblbtn{left:auto !important;}
   #banner{ background-image: url("../images/mobile.png"); padding-top: 75px;}
@@ -657,6 +726,10 @@ li{
   .showhidden, .showhidden2{height:110vh;-webkit-transition: height .8s ease;transition: height .8s ease;}
   .min-h-300{min-height:auto !important;}
   .howmuchbtn{left:auto !important;}
+  
+  .btn1.w-25{width:100% !important;}
+  .btn1{width:90% !important;margin:auto !important;}
+  .pull-left{float:none;}
 
 }
 @media (max-width: 768px) {
@@ -672,6 +745,10 @@ li{
   .peoplebtn{bottom:-40px;}
   .midbtn{bottom:-55px !important;}
   .howmuchbtn{left:47%;bottom:-40px;}
+  .sm-bottom{
+	position:absolute !important;
+	bottom:0 !important;
+}
 }
 @media (min-width: 576px) {
   
